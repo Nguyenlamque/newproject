@@ -1,0 +1,172 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p,h3{
+    font-weight:500;
+    letter-spacing: 0.2px;
+}
+/* css body */
+
+body {
+    background: rgba(255, 253, 244, 1);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* css container */
+
+#container {
+    width: 1280px;
+    height: 10000vh;
+    margin: 0 auto;
+}
+
+:root {
+   --text-color :  rgba(55, 70, 57, 1)
+}
+
+/*-====== Css header===========  */
+
+#header{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    width: 519px;
+}
+#header h2 {
+    color: var(--text-color);
+    font-size: 40px;
+}
+#header p{
+    width: 435px;
+    margin-top: 20px;
+    font-size: 19px;
+    line-height: 27px;
+    color: var(--text-color);
+}
+/*-====== Css Content ===========  */
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.box img{
+    width: 310px;
+    margin-top: 39px;
+}
+
+.box h3{
+    font-size: 19px;
+    margin-top: 18px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.box p{
+    width: 265px;
+    margin: 15px 0;
+    color: var(--text-color);
+}
+
+.box .price p {
+    display: inline;
+}
+
+.box .old_price{
+    font-size: 16px;
+    text-decoration: line-through;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.box .new_price{
+font-size: 20px;
+margin-left: 10px;
+font-weight: 400;
+
+}
+
+/*  css list */
+.box .list{
+    margin-top: 15px;
+}
+
+.list .week{
+    margin-right: 20px;
+}
+
+.box .list li{
+    list-style: none;
+    border-top: 1px solid #cccc;
+    padding: 15px 0;
+}
+
+.box .list li:last-child{
+    border-bottom: 1px solid #cccc;
+}
+
+.box .list p{
+display: inline;
+}
+
+/* ====== Css Footer===========  */
+ */
+#footer{
+    margin: 0 auto;
+    width: 1000px;
+    height: 470px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    background: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.content .box_footer{
+    width:328px ;
+}
+
+#footer img{
+    width: 464px;
+    height: 377px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+#footer .box_footer{
+    margin-top: 75px ;
+}
+#footer .slogan{
+    font-size: 14px;
+    color: #a19797cc;
+}
+
+.box_footer .text {
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 600;
+    opacity: 0.75;
+}
+
+.box_footer .auther{
+margin-top: 20px;
+font-weight: 600;
+opacity: 0.9;
+}
+
+.box_footer .artist{
+    margin-top: 10px;
+    opacity: 0.55;
+}
+
+.box_footer #double_link{
+    font-size: 35px;
+    color: #cccc;
+    margin-top: 40px;
+}
+
+/*-======   The End ===========  */
